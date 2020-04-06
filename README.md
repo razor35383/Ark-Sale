@@ -1,5 +1,5 @@
 Hello, this is a example about how to run this project.
-You need to instal the latest python and djangp version 
+You need to instal the latest python and django version 
 For the first, you need to run "virtual box". Open in console direct Hello -> Script, and run file activate.bat. Now you can run the project.
 You need to corect the db conect. Open Ark_Sale -> Ark_Sale, open settings.py and corret this dict for your own db.
 
