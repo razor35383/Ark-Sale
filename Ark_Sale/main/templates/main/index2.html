@@ -1,0 +1,67 @@
+{% load static %}  
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" /> 
+        <meta name="vieport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <link rel="stylesheet" href="{% static "main/style.css" %}" type="text/css"/>
+        <title>main</title>
+    </head>
+
+    <!--BODY PART NEXT-->
+    <body>
+
+        <!--LOGO AND BIRD PICTURE-->
+        <div class="EDVbackIMG">
+            <header class = "EDV">EDV project</header>
+        </div>
+
+        <!--LOG IN AND REGISTER-->
+        <div class="logRegBlock">
+            <ul class="bott-menu">
+                
+            <nav>
+                <form action="log_out" method="GET">
+                    <button class="send">LOG OUT</button>
+                </form>
+                    </li>
+                </nav>
+
+
+            <ul>
+        </div>
+    
+
+        <div class="wrapper">
+
+            <!--SEARCHING BLOCK-->
+            <div class = "EDVsearch"> 
+                <form name="search" action="#" method="get">
+                    <input type="text" name="q" placeholder="Search">
+                    <button class="buttonSearch" type="submit">SEARCH</button>
+                </form>
+            </div>
+
+            <!--MAIN MENU BlOCK-->
+            <nav>
+                <ul class="top-menu">
+                    <li><a href="/home/">HOME</a></li>
+                    <li><a href="/products/">PRODUCTS</a></li>
+                    <li><a href="/reviews/">REVIEWS</a></li>
+                    <li><a href="/aboutUS/">ABOUT US</a></li>
+                    <li class="myProfile">MY PROFILE</li>
+                    <li><a href="/cart/">CART</a></li>
+                </ul>
+            </nav>
+
+            <div class="heading"></div>
+            <aside></aside>
+            <section></section>
+        </div>
+
+        <footer>
+        </footer>
+    <script src="main.js"></script>
+    </body>
+</html>

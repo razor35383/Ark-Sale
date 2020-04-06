@@ -1,0 +1,183 @@
+body 
+{
+	/*background-image: url(birdBack.jpg);
+	background-position: center;
+	background-repeat: no-repeat;*/
+	color: #8f8f8f;
+	font: 12px sans-serif;
+	border-top: 5px solid #7e7e7e;
+	margin: 0;
+}
+
+
+
+.EDVbackIMG
+{
+	height: 200px;
+	background-image: url(birdBack.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+.EDV
+{
+	margin-left: 83%;
+	font-size: 200%;
+	text-shadow:  1px 1px 2px black, 0 0 1em  #1D8FE1;
+	color: rgb(97, 33, 218);
+	
+}
+
+
+input[type="password"] 
+{
+	height: 28px;
+	background-color: white;
+	border: 1px solid #e7e7e7;
+}
+
+
+
+input[type="text"] 
+{
+	margin-top: 1px;
+	background-color: white;
+	border: 1px solid #e7e7e7;
+	height: 30px;
+	color: #b2b2b2;
+	padding: 0 10px;
+	vertical-align: top;
+}
+
+
+.logRegBlock
+{
+	padding-left: 90px;
+}
+
+
+.register
+{
+	margin-left: 300px;
+}
+
+
+.buttonSearch 
+{
+	margin-top: 1px;
+	color: #fff;
+	background-image: linear-gradient(-225deg, #22E1FF 0%, #1D8FE1 48%, #625EB1 100%);
+	border: none;
+	border-radius: 5%;
+	height: 32px;
+	font-weight: 700;
+	font-family: sans-serif;
+}
+
+
+p 
+{
+	margin: 20px 0;
+}
+
+
+.wrapper 
+{
+	max-width: 80%;
+	margin: auto;
+}
+
+
+header 
+{
+	padding: 20px 0;
+}
+
+
+.EDVsearch
+{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+nav a 
+{
+	text-decoration: none;
+}
+
+
+nav ul 
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+nav li 
+{
+	list-style-position: inside;
+	font: 14px sans-serif;
+	padding: 10px;
+}
+
+
+.bott-menu li 
+
+{
+	display: inline-block;
+	padding: 10px 30px;
+	margin: 0;
+}
+
+
+.bott-menu a 
+{
+	color: #b2b2b2;
+}
+
+
+.logIn
+{
+	padding-left: 30%;
+}
+
+
+.top-menu
+{
+	margin-top: 5%;
+}
+
+
+.top-menu li 
+{
+	display: inline-block;
+	padding: 10px 30px;
+	margin: 0;
+}
+
+
+.top-menu li.active 
+{
+	background-image: linear-gradient(-225deg, #22E1FF 0%, #1D8FE1 48%, #625EB1 100%);
+	color: #fff;
+	border-radius: 5%;
+}
+
+
+.top-menu a 
+{
+	color: #b2b2b2;
+}
+
+
+.send
+{
+	background-image: linear-gradient(-225deg, #22E1FF 0%, #1D8FE1 48%, #625EB1 100%);
+	border-radius: 10%;
+	color: white;
+	height: 33px;
+	font-weight: 700;
+}

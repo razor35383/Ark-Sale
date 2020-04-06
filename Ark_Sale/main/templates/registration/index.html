@@ -1,0 +1,70 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>registration</title>
+  <link rel="stylesheet" href="{% static "registration/registration.css" %}">
+  <link rel="icon" type="image" href ="pictureEDV.ico">
+</head>
+<body>
+<div class="mainPage"><a href="/">BACK TO MAIN PAGE<a></div>
+  <section class = "content">
+    <h3> CREATE NEW ACCOUNT </h3>
+    
+<form id="feedback" name="feedback" action="form" method="GET">
+    <ul class="form-list form-list_contact">
+        
+        
+        <li>
+            <label> Your first name: </label>
+            <div>
+                <input class="form-control" type="text" name="fname" maxlength="30" value="">
+            </div>
+            <span class="error"></span>
+        </li>
+        <li>
+            <label> Your last name: </label>
+            <div>
+                <input class="form-control" type="text" name="lname" maxlength="30" value="">
+            </div>
+            <span class="error"></span>
+        </li>
+        <li>
+            <label> Your email: </label>
+            <div>
+                <input class="form-control" type="text" name="email" maxlength="30" value="">
+            </div>
+            <span class="error"></span>
+        </li>
+        <li>
+            <label> Your password: </label>
+            <div>
+                <input class="form-control" type="text" name="psw" maxlength="50" value="">
+            </div>
+            <span class="error"></span>
+        </li>
+        <li>
+            <label> Repeat your password: </label>
+            <div>
+                <input class="form-control" type="text" name="pswCheck" maxlength="50" value="">
+            </div>
+            <span class="error"></span>
+        </li>
+        <li>
+            <label></label>
+            <div>
+                <button id="send_mess" type="submit"> REGISTER </button>
+            </div>
+        </li>
+    </ul>
+</form>
+
+  </section>
+
+  <footer>
+
+  </footer>
+  
+</body>
+</html>
